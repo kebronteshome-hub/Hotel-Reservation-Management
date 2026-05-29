@@ -9,12 +9,10 @@ public class Main {
 
         Hotel hotel = new Hotel();
 
-        // Add rooms
         hotel.addRoom(new Room(101, "Single"));
         hotel.addRoom(new Room(102, "Double"));
         hotel.addRoom(new Room(103, "Suite"));
 
-        // Employee object
         Employee emp =
                 new Employee(
                         1,
